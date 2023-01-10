@@ -125,13 +125,23 @@ main {
   padding: 30px;
 }
 /* Resume Styles */
+.resume {
+  margin-top: 70px;
+}
 .resume-content {
   display: flex;
   gap: 24px;
+  margin-top: 100px;
 }
 .resume-item {
   margin-top: 30px;
   margin-bottom: 30px;
+}
+.resume-title {
+  font-size: 40px;
+  font-weight: 700;
+  color: #474747;
+  margin-bottom: 10px;
 }
 .resume .title {
   font-size: 25px;
@@ -151,4 +161,29 @@ main {
 .resume-button {
   margin-top: 50px;
   text-align: center;
+}
+/* contact styles */
+.contact {
+  display: flex;
+  gap: 100px;
+  background: #fff8f3;
+  padding: 130px 200px;
+}
+.contact .section-title {
+  text-align: left;
+}
+.contact input[type="text"],
+input[type="email"],
+textarea {
+  margin-bottom: 24px;
+  border: 0;
+  width: 100%;
+  padding: 18px 30px;
+}
+input {
+  height: 64px;
+}
+
+.contact a {
+  text-decoration: none;
 }
